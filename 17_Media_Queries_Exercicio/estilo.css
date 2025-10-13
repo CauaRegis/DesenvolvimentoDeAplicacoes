@@ -56,12 +56,9 @@ body {
 	background:#0c3;	
 	
 }
-
-@media screen and (max-width:1400px) and
-(min-width:100px){
-	
 	body{
   		background:rgb(8, 39, 69);
 	}
+
 
 }
