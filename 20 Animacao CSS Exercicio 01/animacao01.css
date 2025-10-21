@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	
+	background-image:url(img/009.jpg);
+}
+
+
+
+div{
+	
+	float:left;	
+	border:solid 4px;
+	margin:20px;	
+	padding:20px ;
+	background-color: yellow;
+	font-size:28px;	
+	font-family:Verdana, Geneva, sans-serif;
+	font:Verdana;
+	font-weight:bold;	
+
+	
+	
+	
+}
+
