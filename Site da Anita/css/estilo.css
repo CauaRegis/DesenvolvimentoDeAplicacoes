@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(255, 145, 164);
+    font-family: "Comic Sans MS", "Comic Sans";
+}
+
+section {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+article {
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: flex-start;
+}
+
+img {
+    object-fit:contain;
+}
+
+.trocaDePagina {
+    justify-items: center;
+}
+
+.copiavel {
+    color: rgb(51, 0, 255);
+    margin-right: 10px;
+}
+
+.invisivel {
+    color: rgb(0, 200, 0);
+}
+
+.botao {
+    height: 100px;
+}
+
+.fotoP {
+    height: 50%;
+    width: 20%;
+    justify-content: center;
+}
+
+#fotoG {
+    height: 100%;
+    width: 44%;
+    justify-content: center;
+}
+
+#fotos {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#botoes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 950px) {
+    .fotoP {
+        height: 10%;
+        width: 10%;
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 500px) {
+    .botao {
+        height: 50px
+    }
+}
